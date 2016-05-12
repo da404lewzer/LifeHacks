@@ -1,66 +1,129 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>404's LifeHacks
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Crap that might be useful to someone else by da404lewzer</title>
+  </head>
+
   <body>
-  
-    <div id="readme" class="readme boxed-group clearfix announce instapaper_body md">
-    
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-404s-lifehacks" class="anchor" href="#404s-lifehacks" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>404's LifeHacks</h1>
-    
-    <p>I present: Various things I have learned over time!</p>
-    
-    <h2><a id="user-content-linux" class="anchor" href="#linux" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Linux</h2>
-    
-    <p>This section contains apps that have been helpful in my linux endeavours!</p>
-    
-    <h3><a id="user-content-tmux" class="anchor" href="#tmux" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><a href="https://tmux.github.io/">tmux</a></h3>
-    
-    <p>tmux is a terminal multiplexer</p>
-    
-    <p>If you are currently using screen, you should really consider switching to tmux as using it is like night and day.</p>
-    
-    <p>yum/apt-get install:</p>
-    
-    <pre><code>sudo yum install tmux
-    or
-    sudo apt-get install tmux
-    </code></pre>
-    
-    <h2><a id="user-content-windows" class="anchor" href="#windows" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a>Windows</h2>
-    
-    <p>Windows is a special kind of special and has it's own special tools!</p>
-    
-    <h3><a id="user-content-atomio" class="anchor" href="#atomio" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><a href="https://atom.io/">ATOM.IO</a></h3>
-    
-    <p>A hackable text editor for the 21st Century</p>
-    
-    <p>I have used a lot of different text editors, including the much respected notepad++, and this is by far my favorite editor for writing code in.</p>
-    
-    <p>Plugins:</p>
-    
-    <ul>
-    <li><a href="https://atom.io/packages/minimap">minimap</a> - a minimap that acts as a "you are here" sign</li>
-    <li><a href="https://atom.io/packages/todo-show">todo-show</a> - a quick place to find all of your reminders</li>
-    <li><a href="https://atom.io/packages/pigments">pigments</a> - displays actual colors inline with your code/css</li>
-    <li>Linters (code validation):
-    
-    <ul>
-    <li><a href="https://atom.io/packages/linter">linter</a> - base package (required)</li>
-    <li><a href="https://atom.io/packages/linter-jshint">linter-jshint</a></li>
-    <li><a href="https://atom.io/packages/linter-htmlhint">linter-htmlhint</a></li>
-    <li><a href="https://atom.io/packages/linter-csslint">linter-csslint</a></li>
-    </ul></li>
-    <li><a href="https://atom.io/packages/highlight-selected">highlight-selected</a> - shows all instances of your selection</li>
-    </ul>
-    
-    <h3><a id="user-content-notepad" class="anchor" href="#notepad" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1h-1c-1.5 0-3-1.69-3-3.5s1.55-3.5 3-3.5h4c1.45 0 3 1.69 3 3.5 0 1.41-0.91 2.72-2 3.25v-1.16c0.58-0.45 1-1.27 1-2.09 0-1.28-1.02-2.5-2-2.5H4c-0.98 0-2 1.22-2 2.5s1 2.5 2 2.5z m9-3h-1v1h1c1 0 2 1.22 2 2.5s-1.02 2.5-2 2.5H9c-0.98 0-2-1.22-2-2.5 0-0.83 0.42-1.64 1-2.09v-1.16c-1.09 0.53-2 1.84-2 3.25 0 1.81 1.55 3.5 3 3.5h4c1.45 0 3-1.69 3-3.5s-1.5-3.5-3-3.5z"></path></svg></a><a href="https://notepad-plus-plus.org/">Notepad++</a></h3>
-    
-    <p>Notepad++ is a free source code editor and Notepad replacement</p>
-    
-    <p>Notepad++ is probably the most powerful editor you can get for free on Windows. However, I would strongly try Atom for new projects.</p>
-    </article>
+    <a id="forkme_banner" href="https://github.com/da404lewzer">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Crap that might be useful to someone else</h1>
+            <h2>Various things I have learned over time.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <div id="no-downloads">
+        <span class="inner">
+        </span>
       </div>
-  
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h2>
+<a id="linux" class="anchor" href="#linux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux</h2>
+
+<p>This section contains apps that have been helpful in my linux endeavours!</p>
+
+<h3>
+<a id="tmux" class="anchor" href="#tmux" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://tmux.github.io/">tmux</a>
+</h3>
+
+<p>tmux is a terminal multiplexer</p>
+
+<p>If you are currently using screen, you should really consider switching to tmux as using it is like night and day.</p>
+
+<p>yum/apt install:</p>
+
+<pre><code>sudo yum install tmux
+or
+sudo apt-get install tmux
+</code></pre>
+
+<h2>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows</h2>
+
+<p>Windows is a special kind of special and has it's own special tools!</p>
+
+<h3>
+<a id="atomio" class="anchor" href="#atomio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://atom.io/">ATOM.IO</a>
+</h3>
+
+<p>A hackable text editor for the 21st Century</p>
+
+<p>I have used a lot of different text editors, including the much respected notepad++, and this is by far my favorite editor for writing code in.</p>
+
+<p>Plugins:</p>
+
+<ul>
+<li>
+<a href="https://atom.io/packages/minimap">minimap</a> - a minimap that acts as a "you are here" sign</li>
+<li>
+<a href="https://atom.io/packages/todo-show">todo-show</a> - a quick place to find all of your reminders</li>
+<li>
+<a href="https://atom.io/packages/pigments">pigments</a> - displays actual colors inline with your code/css</li>
+<li>Linters (code validation):
+
+<ul>
+<li>
+<a href="https://atom.io/packages/linter">linter</a> - base package (required)</li>
+<li><a href="https://atom.io/packages/linter-jshint">linter-jshint</a></li>
+<li><a href="https://atom.io/packages/linter-htmlhint">linter-htmlhint</a></li>
+<li><a href="https://atom.io/packages/linter-csslint">linter-csslint</a></li>
+</ul>
+</li>
+<li>
+<a href="https://atom.io/packages/highlight-selected">highlight-selected</a> - shows all instances of your selection</li>
+</ul>
+
+<h3>
+<a id="notepad" class="anchor" href="#notepad" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://notepad-plus-plus.org/">Notepad++</a>
+</h3>
+
+<p>Notepad++ is a free source code editor and Notepad replacement</p>
+
+<p>Notepad++ is probably the most powerful editor you can get for free on Windows. However, I would strongly try Atom for new projects.</p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>Projects by <a href="https://github.com/da404lewzer">da404lewzer</a> can be found on <a href="https://github.com/da404lewzer">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
   </body>
 </html>
