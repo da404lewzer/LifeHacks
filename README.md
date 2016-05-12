@@ -1,5 +1,5 @@
 # 404's LifeHacks
-I present: Various things I have learned over time!
+Various things I have learned over time.
 
 ## Linux
 This section contains apps that have been helpful in my linux endeavours!
@@ -9,7 +9,7 @@ tmux is a terminal multiplexer
 
 If you are currently using screen, you should really consider switching to tmux as using it is like night and day.
 
-yum/apt-get install:
+yum/apt install:
 ```
 sudo yum install tmux
 or
